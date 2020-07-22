@@ -1,11 +1,10 @@
-// Abdullah Alsubaei
 // Outputs the input strings flipped with given line width and right-justification
 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
-#define MAX_NUM_WORDS 50
+#define MAX_NUM_WORDS 1000
 
 char *str_reverse(char *);
 
