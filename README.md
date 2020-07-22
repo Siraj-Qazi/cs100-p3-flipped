@@ -29,8 +29,11 @@ To execute:
 This project takes text (strings) and outputs the text flipped with specified justification.
 The text will be printed right to left on right-justified lines of a given width. As an example,
 consider the input:
+
 ```Hello there! General Kenobi... You are a bold one!```
+
 This text flipped is:
+
 ```!eno dlob a era uoY ...iboneK lareneG !ereht olleH```
 
 Two sample executions of the program using I/O redirection are shown below. The `stdout`
