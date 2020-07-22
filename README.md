@@ -46,19 +46,11 @@ All input must be from `stdin` and all output must be to `stdout`.
 
 #### Notes
  -The input will be the line width (int) followed by words (strings).
- 
  -You can assume there will only be a single space between input strings.
- 
  -No word (string of text) in the input will be longer than the line width.
- 
  -The line width will be between 10 and 100 (inclusive).
- 
  -There is no limit on the amount of words that will be in the text.
- 
  -Make sure the generated input and output end with an empty line (a common standard).
- 
- -Make sure that you include a header block of comments with your name and a brief overview of the program.
- 
  -It is highly advised to use I/O redirection as done in the examples.
  
 ## Built With
