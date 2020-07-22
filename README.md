@@ -1,69 +1,46 @@
-# Image Transform
+# Project 3: Flipped
 
 ### Description
 
-PNG Editor in C++, with grayscaling, illinifying, spot light creation and watermarking support.
-This is the final project of an Object-oriented C++ course I took.
+This is C Programming Project 3 of a CS 100 Computer Science I For Majors course that I took as practice for string manipulation etc. in C.
 
 ### Prerequisites
 
 ```
- C++11 or later
+ C11
 ```
 
 ### Building and Running
 
-Use the provided `Makefile` to build:
+Compile with gcc:
 
 ```
-make
+gcc flipped.c -o flipped
 ```
 
-To execute the image transformations specified in `main.cpp`:
+To execute:
 
 ```
-./ImageTransform
+./flipped
 ```
 
-This will generate the required transformed images in the working directory.
+### Project Requirements (from PDF)
 
-## Running the tests
+This project takes text (strings) and outputs the text flipped.
+The text will be printed right to left on right-justified lines of a given width. As an example,
+consider the input:
+`Hello there! General Kenobi... You are a bold one!`
 
-Automated Tests using the Catch C++ Unit Testing framework are in `tests/` directory and can be built by:
-```
-make test
-```
+This text flipped is:
+`!eno dlob a era uoY ...iboneK lareneG !ereht olleH`
 
-Run with:
-```
-./test
-````
+Two sample executions of the program using I/O redirection are shown below. The stdout
+redirect is optional, but may be useful for testing. The last line of numbers is the column
+numbers and needs to be in your output. Your output should match the example output exactly.
+All input must be from stdin and all output must be to stdout.
 
-## Features
-
-Currently the editor supports four image transformations - grayscale, illinify, spotlight and watermarking.
-
-### Sample input
-
-#### Input image:
-![Alma](/alma.png)
-
-#### Watermark to apply:
-![Watermark](/overlay.png)
-
-### Sample outputs
-
-#### Grayscaled:
-![Grayscaled](/out-grayscale.png)
-
-#### Illinifyd:
-![Illinifyd](/out-illinify.png)
-
-#### Spotlighted:
-![Spotlighted](/out-spotlight.png)
-
-#### Watermarked:
-![Watermarked](/out-watermark.png)
+![sample1](/samples/sample1.png)
+![sample2](/samples/sample2.png)
 
 ## Built With
 
